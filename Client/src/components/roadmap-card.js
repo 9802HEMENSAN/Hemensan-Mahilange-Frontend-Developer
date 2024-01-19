@@ -13,7 +13,7 @@ const RoadmapCard = ({
   propWidth,
   propAlignSelf,
   propPadding1,
-  propPadding2,
+  propPadding2
 }) => {
   const contentGroupStyle = useMemo(() => {
     return {
