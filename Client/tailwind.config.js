@@ -1,0 +1,103 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        gray1: {
+          "100": "#25241d",
+          "200": "#1c1c1c",
+          "300": "#211d0d",
+          "400": "#151821",
+          "500": "#141411",
+          "600": "#0d0e11",
+          "700": "#0e0e0f",
+          "800": "rgba(255, 255, 255, 0.31)",
+          "900": "rgba(255, 255, 255, 0.6)",
+        },
+        gold: {
+          "100": "#f9d326",
+          "200": "#fecc00",
+          "300": "#ffc603",
+          "400": "rgba(249, 211, 38, 0.4)",
+          "500": "rgba(249, 211, 38, 0.46)",
+        },
+        white: "#fff",
+        "gray-300": "#d0d5dd",
+        "gray-700": "#344154",
+        gainsboro: {
+          "100": "#e6e6e6",
+          "200": "#e2e2e2",
+          "300": "rgba(230, 230, 230, 0.09)",
+        },
+        lightgray: "#cfcfcf",
+        palegoldenrod: "#fff1b6",
+        black: "#000",
+        lightyellow: "#fdffe3",
+        aliceblue: "#f0f6fb",
+        darkolivegreen: {
+          "100": "#554800",
+          "200": "rgba(92, 79, 5, 0.44)",
+        },
+        goldenrod: "#c7a100",
+      },
+      spacing: {},
+      fontFamily: {
+        "pp-telegraf": "'PP Telegraf'",
+        kanit: "Kanit",
+        "body-md-regular": "Inter",
+        "segoe-ui": "'Segoe UI'",
+      },
+      borderRadius: {
+        "9xl": "28px",
+        "30xl": "49px",
+        "38xl-3": "57.3px",
+        "25xl-4": "44.4px",
+        "81xl": "100px",
+        xl: "20px",
+        "3xs": "10px",
+      },
+    },
+    fontSize: {
+      "9xl-6": "28.6px",
+      "4xl": "23px",
+      "25xl": "44px",
+      "7xl": "26px",
+      "16xl": "35px",
+      "5xl": "24px",
+      lgi: "19px",
+      sm: "14px",
+      base: "16px",
+      xl: "20px",
+      "37xl": "56px",
+      "15xl": "34px",
+      "26xl": "45px",
+      "181xl": "200px",
+      "31xl": "50px",
+      "61xl": "80px",
+      "81xl": "100px",
+      "11xl": "30px",
+      lg: "18px",
+      mini: "15px",
+      "4xs-7": "8.7px",
+      inherit: "inherit",
+    },
+    screens: {
+      mq1875: {
+        raw: "screen and (max-width: 1875px)",
+      },
+      mq1400: {
+        raw: "screen and (max-width: 1400px)",
+      },
+      mq950: {
+        raw: "screen and (max-width: 950px)",
+      },
+      mq450: {
+        raw: "screen and (max-width: 450px)",
+      },
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};
